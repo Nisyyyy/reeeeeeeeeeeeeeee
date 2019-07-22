@@ -7,7 +7,7 @@ var ws_endpoint = null;
  * Event handler for clicking on button "Connect"
  */
 function onConnectClick() {
-    var ws_protocol = "ws";
+    var ws_protocol = "wss";
     var ws_hostname = "mf2.starveserver.tk";
     var ws_port     = "443";
     var ws_endpoint = "/console";
